@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*---- global css start----*/
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f1f1f1;
+}
+
+div{
+    display: block;
+}
+
+h1{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 5vw;
+    color: #363968;
+    padding: 0px;
+    margin: 0px;
+}
+
+h2{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 40px;
+    color: #363958;
+}
+
+h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #363958;
+}
+
+h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #363958;
+}
+/*---- global css end----*/
+
+/*----animations css start----*/
+.animate__animated.animate__backInLeft{
+    animation-duration: 800ms;
+    animation-delay: 0.3s;
+}
+
+.animate__animated.animate__backInRight{
+    animation-duration: 800ms;
+    animation-delay: 0.6s;
+}
+
+.animate__animated.animate__backInUp{
+    animation-duration: 800ms;
+    animation-delay: 0.8s;
+}
+
+.animate__animated.animate__fadeIn{
+    animation-duration: 900ms;
+    animation-delay: 1s;
+}
+/*----animations css end----*/
+
+/*----header and main css start----*/
+#header{
+    height: 80vh;
+    padding: 85px 0 70px 0;
+    background-color: #f4f5ff;
+}
+
+#header span{
+    font-weight: 700;
+}
+
+.custom-navbar{
+    background-color: #B3D6C6;
+}
+
+.custom-ul{
+    text-align: center;
+    background-color: #B3D6C6;
+}
+
+.shadow{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,0.08) !important;
+}
+
+.custom-li{
+    font-weight: 700;
+    padding: 0px 25px;
+}
+
+.custom-logo{
+    width: 30%;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.custom-highlight{
+    color: #8e63c7;
+}
+
+.btn:hover{
+    background-color: #C7D66D;
+    color: black;
+}
+.custom-btn{
+    background-color:#75B9BE;
+    color: black;
+    padding: 10;
+    border: none;
+    outline: none;
+}
+
+.custom-hero-img{
+    width: 60vw;;
+}
+
+.card:hover{
+    box-shadow: 0pc 10px 30px rgba(0, 0, 0, 0.1);
+    border-color: #75B9BE;
+    border-width: 2px;
+}
+.custom-card{
+    border-radius: 20px;
+    padding: 12px;
+    box-shadow: 0pc 10px 30px rgba(0,0,0,0.05);
+    border: none;
+}
+
+.custom-img-width{
+    width: 90px;
+}
+
+.custom-service-card{
+    border-radius: 10px;
+    box-shadow: 0pc 10px 30px rgba(0,0,0,0.05);
+    border: none;
+}
+
+.custom-footer{
+    background-color: transparent;
+    border: none;
+}
+
+.custom-bg{
+    height: 350px;
+    background: #f1f1f1;
+    border-radius: 12px;
+}
+
+/*----header and main css end----*/
+
+/*----footer css start----*/
+#footer{
+    padding: 25px 0px;
+}
+
+footer h5{
+    padding: 10px 0;
+}
+
+#footer li a{
+    text-decoration: none;
+}
+
+.custom-socialIcon{
+    color:black;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+/*----footer css end----*/

@@ -3,7 +3,7 @@
 /*---- global css start----*/
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: #f1f1f1;
+    background-color: #FCF4EE;
 }
 
 div{
@@ -37,6 +37,11 @@ h5{
     font-weight: 700;
     color: #363958;
 }
+
+footer h5{
+    padding: 10px 0;
+}
+
 /*---- global css end----*/
 
 /*----animations css start----*/
@@ -65,7 +70,7 @@ h5{
 #header{
     height: 55rem;
     padding: 85px 0 70px 0;
-    background-color: #f4f5ff;
+    background-color: #FCF4EE;
 }
 
 #header span{
@@ -73,12 +78,12 @@ h5{
 }
 
 .custom-navbar{
-    background-color: #B3D6C6;
+    background-color: #AFE0CE;
 }
 
 .custom-ul{
     text-align: center;
-    background-color: #B3D6C6;
+    background-color: #AFE0CE;
 }
 
 .shadow{
@@ -100,12 +105,12 @@ h5{
 }
 
 .btn:hover{
-    background-color: #C7D66D;
+    background-color: #ba9ae2;
     color: black;
 }
 .custom-btn{
-    background-color:#75B9BE;
-    color: black;
+    background-color:#8e63c7;
+    color: white;
     padding: 10;
     border: none;
     outline: none;
@@ -115,12 +120,13 @@ h5{
     width: 45rem;;
 }
 
-.card:hover{
+/* .card:hover{
     box-shadow: 0pc 10px 30px rgba(0, 0, 0, 0.1);
     border-color: #75B9BE;
     border-width: 2px;
-}
+}*/
 .custom-card{
+    background-color: #AFE0CE;
     border-radius: 20px;
     padding: 12px;
     box-shadow: 0pc 10px 30px rgba(0,0,0,0.05);
@@ -131,13 +137,18 @@ h5{
     width: 90px;
 }
 
-.custom-service-card{
+.custom-services-card{
+    background-color: #AFE0CE;
     border-radius: 10px;
     box-shadow: 0pc 10px 30px rgba(0,0,0,0.05);
-    border: none;
 }
 
-.custom-footer{
+.custom-services-card:hover{
+    box-shadow: 0pc 10px 30px rgba(0, 0, 0, 0.1);
+    border-color: #8e63c7;
+    border-width: 2px;
+}
+.custom-card-footer{
     background-color: transparent;
     border: none;
 }
@@ -147,16 +158,14 @@ h5{
     background: #f1f1f1;
     border-radius: 12px;
 }
-
+.logo-brand-color{
+    color: #363958;
+}
 /*----header and main css end----*/
 
 /*----footer css start----*/
 #footer{
     padding: 25px 0px;
-}
-
-footer h5{
-    padding: 10px 0;
 }
 
 #footer li a{
@@ -167,5 +176,8 @@ footer h5{
     color:black;
     text-decoration: none;
     font-size: 1.5rem;
+}
+.footer-background{
+    background-color: #AFE0CE;
 }
 /*----footer css end----*/

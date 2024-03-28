@@ -63,7 +63,7 @@ h5{
 
 /*----header and main css start----*/
 #header{
-    height: 80vh;
+    height: 55rem;
     padding: 85px 0 70px 0;
     background-color: #f4f5ff;
 }
@@ -112,7 +112,7 @@ h5{
 }
 
 .custom-hero-img{
-    width: 60vw;;
+    width: 45rem;;
 }
 
 .card:hover{
